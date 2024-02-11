@@ -44,10 +44,6 @@ Execute as migrações do banco de dados com o seguinte comando:
 ```
 docker compose exec app php artisan migrate
 ```
-Instale as dependências do npm para a imagem frontend:
-```
-docker compose exec image_front npm install
-```
 Acesso Local
 Depois de seguir as etapas acima, você pode acessar o projeto Teste-Agenda localmente no seguinte endereço:
 
