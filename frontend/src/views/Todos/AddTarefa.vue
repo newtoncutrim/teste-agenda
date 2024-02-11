@@ -1,8 +1,9 @@
 <template>
-<h1 class="p-3">Adicionar Tarefa</h1>
 
 
-<form action="#" method="post"  @submit.prevent="addTarefa" class="mx-auto mt-4 container-fluid">
+<div class="container">
+    <h1 class="p-3">Adicionar Tarefa</h1>
+    <form action="#" method="post"  @submit.prevent="addTarefa" class="mx-auto mt-4 container-fluid">
 
 <div class="form-group row p-1">
     <label for="inputPassword" class="col-sm-2 col-form-label">Nome</label>
@@ -34,6 +35,7 @@
         </div>
       </div>
 </form>
+</div>
 </template>
 
 <script>
